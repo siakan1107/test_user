@@ -1,4 +1,8 @@
-provider "aws" {
-  region  = "ap-northeast-2"
-  profile = "default"
+data "aws_ssoadmin_instances" "main" {}
+
+
+module "user-kibeomkim" {
+  source = "./module/User/KE/CDSO/kibeomkim"
+
 }
+
