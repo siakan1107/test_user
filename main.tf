@@ -1,8 +1,5 @@
-data "aws_ssoadmin_instances" "main" {}
-
-
-module "user-kibeomkim" {
-  source = "./module/User/KE/CDSO/kibeomkim"
+module "user-cdso" {
+  source = "./module/User/KE/"
 
 }
 
