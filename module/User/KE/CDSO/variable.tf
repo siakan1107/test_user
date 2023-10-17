@@ -22,3 +22,8 @@ variable "emails" {
   description = "emails"
   type        = string
 }
+
+variable "group_id" {
+  description = "group_id"
+  type        = string
+}
