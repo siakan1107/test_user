@@ -1,5 +1,5 @@
 module "pv-ps-grp-cdso-admin" {
-  source = "./provisioning"
+  source = "./provision"
 
     permission_set_arn = module.ps-grp-cdso-admin.ps-grp-cdso-admin-arn
     principal_id = module.grp-cdso-admin.grp-cdso-admin-id
