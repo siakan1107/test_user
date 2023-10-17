@@ -8,4 +8,3 @@ module "user-cdso" {
   emails = "testcoso@testuser1.com"
 
 }
-
