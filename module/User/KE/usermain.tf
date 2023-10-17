@@ -1,4 +1,4 @@
-module "user-cdso-module" {
+module "user-testcdso" {
   source = "./CDSO/"
 
   display_name = "testcdso"
@@ -9,7 +9,7 @@ module "user-cdso-module" {
 
 }
 
-module "user-cdso-module" {
+module "user-testcdso2" {
   source = "./CDSO/"
 
   display_name = "testcdso2"
