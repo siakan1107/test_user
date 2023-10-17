@@ -8,7 +8,7 @@ module "pv-ps-grp-cdso-admin" {
     target_type = "AWS_ACCOUNT"
 }
 module "pv-ps-grp-pss-pns-admin" {
-  source = ".provisioning/"
+  source = "./provisioning/"
 
     permission_set_arn = module.ps-grp-pss-pns-admin.ps-grp-pss-pns-admin-arn
     principal_id = module.grp-pss-pns-admin.grp-pss-pns-admin-id
