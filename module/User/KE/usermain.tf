@@ -1,4 +1,4 @@
-module "user-cdso" {
+module "user-cdso-module" {
   source = "./module/User/KE/CDSO/"
 
   display_name = "testcoso"
