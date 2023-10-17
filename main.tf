@@ -4,16 +4,16 @@ module "user" {
 }
 
 module "group" {
-  source = "./module/Group/"
+  source = "./module/Group"
 
 }
 
 module "permissionset" {
-  source = "./module/Permissionset/"
+  source = "./module/Permissionset"
 
 }
 
 module "provisioning" {
-  source = "./module/Provision/"
+  source = "./module/Provision"
 
 }
