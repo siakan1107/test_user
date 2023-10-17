@@ -1,4 +1,4 @@
 module "ps-grp-cdso-admin" {
-  source = "./module/Permissionset/PS-GRP-CDSO-ADMIN"
+  source = "./Permissionset/PS-GRP-CDSO-ADMIN"
 
 }
