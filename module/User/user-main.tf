@@ -1,5 +1,5 @@
 module "user-testcdso" {
-  source = "./CDSO/"
+  source = "./KE/CDSO/"
 
   display_name = "testcdso"
   user_name    = "testcdso"
@@ -13,7 +13,7 @@ group_id = module.grp-cdso-admin.grp-cdso-admin-id
 }
 
 module "user-testcdso2" {
-  source = "./PSS/"
+  source = "./KE/PSS/"
 
   display_name = "testcdso2"
   user_name    = "testcdso2"
