@@ -4,12 +4,12 @@ data "aws_ssoadmin_instances" "user-kibeomkim" {}
 resource "aws_identitystore_user" "user-kibeomkim1" {
   identity_store_id = tolist(data.aws_ssoadmin_instances.user-kibeomkim.identity_store_ids)[0] 
 
-  display_name = test
-  user_name    = test
+  display_name = "test"
+  user_name    = "test"
 
   name {
-    given_name  = test
-    family_name = test
+    given_name  = "test"
+    family_name = "test"
   }
 
   emails {
@@ -20,12 +20,12 @@ resource "aws_identitystore_user" "user-kibeomkim1" {
   resource "aws_identitystore_user" "user-kibeomkim2" {
   identity_store_id = tolist(data.aws_ssoadmin_instances.user-kibeomkim.identity_store_ids)[0] 
 
-  display_name = test2
-  user_name    = test2
+  display_name = "test2"
+  user_name    = "test2"
 
   name {
-    given_name  = test2
-    family_name = test2
+    given_name  = "test2"
+    family_name = "test2"
   }
 
   emails {
