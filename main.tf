@@ -1,5 +1,5 @@
 module "user" {
-  source = "./module/User/KE/"
+  source = "./module/User/"
 
 }
 
