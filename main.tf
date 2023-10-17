@@ -7,3 +7,8 @@ module "group" {
   source = "./module/Group/"
 
 }
+
+module "permissionset" {
+  source = "./module/Permissionset/"
+
+}
