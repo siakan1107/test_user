@@ -1,5 +1,5 @@
 module "user-cdso-module" {
-  source = "./module/User/KE/CDSO/"
+  source = "./CDSO/"
 
   display_name = "testcoso"
   user_name    = "testcoso"
