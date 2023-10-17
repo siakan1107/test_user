@@ -14,6 +14,6 @@ module "permissionset" {
 }
 
 module "provisioning" {
-  source = "./module/Provision/"
+  source = "./module/Provisioning/"
 
 }
