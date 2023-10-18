@@ -8,12 +8,12 @@ module "group" {
 
 }
 
-module "permissionset" {
-  source = "./module/Permissionset/"
+#module "permissionset" {
+#  source = "./module/Permissionset/"
 
-}
+#}
 
-module "provisioning" {
-  source = "./module/Provisioning/"
+#module "provisioning" {
+#  source = "./module/Provisioning/"
 
-}
+#}
