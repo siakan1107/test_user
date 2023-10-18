@@ -1,4 +1,4 @@
-module "user" {
+module "mainuser" {
   source = "./Module/User/KE/CDSO/"
 
   display_name = "Kimtest"
