@@ -1,5 +1,5 @@
 module "user" {
-  source = "./module/User/main.tf"
+  source = "./module/User/KE/CDSO/"
 
   display_name = "Kimtest"
   user_name    = "Kimtest"
@@ -7,5 +7,4 @@ module "user" {
   family_name = "Kim"
   emails = "testusekim@testuser1.com"
 
-  group_id = data.grp-cdso-admin.grp-cdso-admin-id
 }
