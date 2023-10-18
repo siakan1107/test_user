@@ -1,5 +1,5 @@
 module "mainuser" {
-  source = "./Module/User/KE/CDSO/"
+  source = "./module/User/KE/CDSO/"
 
   display_name = "Kimtest"
   user_name    = "Kimtest"
