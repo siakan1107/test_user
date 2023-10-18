@@ -1,3 +1,3 @@
 module "user" {
-  source = "./module/KE/CDSO/"
+  source = "./module/KE/CDSO/kibeomkim.tf"
 }

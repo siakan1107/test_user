@@ -1,5 +1,5 @@
 module "user-kibeomkim" {
-  source = "./User/"
+  source = "../User/"
 
   display_name = "Kimtesttest"
   user_name    = "Kimtesttest"
