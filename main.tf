@@ -1,4 +1,4 @@
 module "user" {
-  source = "./Main/User/"
+  source = "./module/Main/User"
 
 }
