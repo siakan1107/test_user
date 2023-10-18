@@ -1,10 +1,12 @@
 module "user" {
   source = "./module/User/"
 
-  display_name = "Kimtest"
-  user_name    = "Kimtest"
+  display_name = "Kimtesttest"
+  user_name    = "Kimtesttest"
   given_name  = "Kibeomkimtest"
   family_name = "Kim"
-  emails = "testusekim@testuser1.com"
+  emails = "testusekim2@testuser1.com"
+
+
 
 }
